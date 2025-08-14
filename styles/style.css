@@ -178,13 +178,97 @@ nav .nav-links > ul > li > a > img{
     width: 84px;
     height: 25.28px;
 }
-
 /* end header styles here   */
 
+/* start Media query for head section styles here   */
+@media screen and (max-width: 576px) {
+    body{
+        /* Mobile */
+        max-width: 360px;
+        height: 6077px;
+        margin: 0 auto;
+    }
+    header{
+        height: 560px;
+        justify-content: center;
+        align-items: center;
+        /* height: auto; */
+    }
+    .navbar{
+        display: none;
+    }
+    .header-body{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .header-body img{
+        /* unsplash:InK0X-GDjrQ */
+        width: 202px;
+        height: 190px;
+        margin-bottom: 30px;
+    }
+    .body-container{
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .body-container-title{
+        /* Start your Journey as Influencer */
+        width: 404px;
+        height: 78px;
+        color: rgba(58, 58, 58, 1);
+        font-size: 1.75rem;
+        font-weight: 600;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .body-container-des{
+        /* Label */
+        width: 321px;
+        height: 65px;
+        color: rgba(58, 58, 58, 1);
+        font-size: 0.875rem;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header-sponspors-image{
+        width: 275.21px;
+        height: 61.46px;
+        padding: 0px;
+        margin-left: 42.79px;
+        margin-right: 42px;
 
-/* start shared styles here   */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Centers each row */
+        gap: 31px;
+        
+    }
+    .header-sponspors-image > img{
+        /* Group 33120 */
+        width: 51.17px;
+        height: 15.24px;
+        flex: 0 0 calc(25% - 25px); /* 4 per row, same width */
+        max-width: calc(25% - 31px);
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
 
-/* end shared styles here   */
+/* end Media query for head section styles here   */
+
+
+
 /* start shared styles here   */
 
 /* end shared styles here   */
