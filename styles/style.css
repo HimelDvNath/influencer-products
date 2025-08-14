@@ -31,8 +31,10 @@ header{
     max-width: 1200px;
     height: 748px;
     margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-/* end header styles here   */
 /* start Nav styles here   */
 nav{
     width: 1200px;
@@ -87,6 +89,97 @@ nav .nav-links > ul > li > a > img{
     height: 36px;
 }
 /* end Nav styles here   */
+.header-body{
+    width: 1188px;
+    height: 475;
+    justify-content: center;
+    align-items: center;
+    gap: 133px;
+}
+.body-container{
+    width: 582px;
+    height: 270px; 
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+.body-container-title{
+    width: 582px;
+    height: 133px;
+    color: rgba(58, 58, 58, 1);
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0px;
+}
+.body-container-des{
+    /* Label */
+    width: 505px;
+    height: 60.9px;
+    color: rgba(58, 58, 58, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.body-continer-btn{
+    width: 196px;
+    height: 44px;
+    /* Auto layout */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+    background: rgba(224, 44, 109, 1);
+    border: none;
+}
+.btn-text{
+    /* Preebook now */
+    width: 146px;
+    height: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px 0px 10px 24px; */
+}
+.fa-arrow-right{
+    /* arrow-forward 1 */
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-body img{
+    /* unsplash:InK0X-GDjrQ */
+    width: 440px;
+    height: 414px;
+    
+}
+.header-sponspors-image{
+    /* Group 33128 */
+    width: 986.47px;
+    height: 39.61px;
+    background: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 36px 0px 34.39px 0px;
+
+}
+.header-sponspors-image img{
+    /* Group 33120 */
+    width: 84px;
+    height: 25.28px;
+}
+
+/* end header styles here   */
 
 
 /* start shared styles here   */
