@@ -190,7 +190,8 @@ nav .nav-links > ul > li > a > img{
     }
     header{
         height: 560px;
-        justify-content: center;
+        margin: 0 auto;
+        justify-content: flex-start;
         align-items: center;
         /* height: auto; */
     }
