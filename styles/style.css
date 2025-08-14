@@ -1,8 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .poppins-fiont {
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+/* start shared styles here   */
+.display-flex{
+    display: flex;
+}
+/* end shared styles here   */
+
+/* start body styles here   */
+.body-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 3306px;
+    background: rgba(255, 255, 255, 1);
+}
+/* end body styles here   */
+
+/* start header styles here   */
+header{
+    max-width: 1200px;
+    height: 748px;
+    margin: 0 auto;
+}
+/* end header styles here   */
+/* start Nav styles here   */
+nav{
+    width: 1200px;
+    height: 52.2px;
+    margin: 87px 120px 120px 0px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 494px;
+    /* border: 2px solid red; */
+}
+.nav-title{
+    width: 243px;
+    height: 52.2px;
+    color: rgba(58, 58, 58, 1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.nav-links{
+    /* Group 33118 */
+    width: 473px;
+    height: 36px;
+    
+}
+nav .nav-links > ul{
+    gap: 34px;
+}
+nav .nav-links > ul > li{
+    list-style: none;
+    height: 34.8px;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+nav .nav-links > ul > li > a{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+}
+.nav-search{
+    /* akar-icons:search */
+    width: 24px;
+    height: 24px;
+}
+nav .nav-links > ul > li > a > img{
+    width: 36px;
+    height: 36px;
+}
+/* end Nav styles here   */
+
+
+/* start shared styles here   */
+
+/* end shared styles here   */
+/* start shared styles here   */
+
+/* end shared styles here   */
+/* start shared styles here   */
+
+/* end shared styles here   */
+/* start shared styles here   */
+
+/* end shared styles here   */
+/* start shared styles here   */
+
+/* end shared styles here   */
+/* start shared styles here   */
+
+/* end shared styles here   */
+/* start shared styles here   */
+
+/* end shared styles here   */
