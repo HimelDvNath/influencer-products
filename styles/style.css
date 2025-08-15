@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }
 
-.poppins-fiont {
-  font-family: "Poppins", sans-serif;
+.poppins-font {
+  font-family: "Poppins";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -18,22 +24,24 @@
 /* end shared styles here   */
 
 /* start body styles here   */
-.body-container{
+.body-div{
     max-width: 1440px;
     margin: 0 auto;
     height: 3306px;
     background: rgba(255, 255, 255, 1);
+    border: 2px solid red;
 }
 /* end body styles here   */
 
 /* start header styles here   */
 header{
     max-width: 1200px;
-    height: 748px;
+    height: 768px;
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 /* start Nav styles here   */
 nav{
@@ -129,42 +137,31 @@ nav .nav-links > ul > li > a > img{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 8px;
     padding: 10px 24px 10px 24px;
     border-radius: 41px;
     background: rgba(224, 44, 109, 1);
     border: none;
+    color: rgba(255, 255, 255, 1);
 }
 .btn-text{
     /* Preebook now */
     width: 146px;
     height: 24px;
-    color: rgba(255, 255, 255, 1);
     font-size: 16px;
     font-weight: 600;
-    line-height: 100%;
-    letter-spacing: 0px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     /* margin: 10px 0px 10px 24px; */
 }
-.fa-arrow-right{
-    /* arrow-forward 1 */
-    width: 24px;
-    height: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .header-body img{
-    /* unsplash:InK0X-GDjrQ */
     width: 440px;
     height: 414px;
     
 }
 .header-sponspors-image{
-    /* Group 33128 */
     width: 986.47px;
     height: 39.61px;
     background: rgba(255, 255, 255, 1);
@@ -267,24 +264,103 @@ nav .nav-links > ul > li > a > img{
 }
 
 /* end Media query for head section styles here   */
+/***** collection Section *****/ 
+.collection{
+    max-width: 1047px;
+    height: 1780px;
+    margin: 0 auto;
 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;  
+}
+.collection-title{
+    width: 262px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 70px;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+}
+.collection-cards{
+    width: 1047px;
+    height: 1598px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.card{
+    width: 300px;
+    height: 476px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 1);
+    padding: 17px 15px 1px 14px;
 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
+}
+.card-image{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
 
-/* start shared styles here   */
+}
+.card-title{
+    width: 300px;
+    height: 40px;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+.card-price{
+    width: 82px;
+    height: 29px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0%;
+}
+.card-rating{
+    width: 29px;
+    height: 22px;
+    color: rgba(94, 99, 102, 1);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    letter-spacing: 0.1px;
+}
+.card-des{
+    width: 196px;
+    height: auto;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: auto;
+    letter-spacing: 1.8%;
+    color: rgba(108, 108, 108, 1);
+}
 
-/* end shared styles here   */
-/* start shared styles here   */
+.see-more {
+    align-items: center;
+    gap: 6px; 
+    color: rgba(224, 44, 109, 0.87);   
+    align-self: flex-end;     
+}
+.see-more p {
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+}
 
-/* end shared styles here   */
-/* start shared styles here   */
+/***** End collection Section *****/
 
-/* end shared styles here   */
-/* start shared styles here   */
-
-/* end shared styles here   */
-/* start shared styles here   */
-
-/* end shared styles here   */
-/* start shared styles here   */
-
-/* end shared styles here   */
