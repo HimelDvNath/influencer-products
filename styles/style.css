@@ -27,9 +27,8 @@
 .body-div{
     max-width: 1440px;
     margin: 0 auto;
-    height: 3306px;
+    height: 3359px;
     background: rgba(255, 255, 255, 1);
-    border: 2px solid red;
 }
 /* end body styles here   */
 
@@ -367,7 +366,6 @@ nav .nav-links > ul > li > a > img{
 
 /***** Featured Section *****/  
 .featured{
-    border: 2px solid forestgreen;
     max-width: 1110px;
     height: 270px;
     margin: 0 auto;
@@ -436,4 +434,73 @@ nav .nav-links > ul > li > a > img{
     text-align: center;
 }
 /***** End Featured Section *****/
+
+/***** Section footer *****/ 
+footer{
+    /* Rectangle 4623 */
+    max-width: 1440px;
+    height: 239px;
+    margin: 0 auto;
+    background: rgba(10, 8, 38, 1);
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-comtainer{
+    width: 262px;
+    height: 139px;
+    margin: 50px 589px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.footer-title{
+    /* Label */
+    width: 243px;
+    height: 36px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+.footer-copyright{
+    /* Copyright © 2020 influencer products */
+    width: 262px;
+    height: 24px;
+    color: rgba(217, 219, 225, 1);
+    font-size: 0.860rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+}
+.footer-comment{
+    /* All rights reserved */
+width: 124px;
+height: 24px;
+color: rgba(217, 219, 225, 1);
+font-size: 0.840rem;
+font-weight: 600;
+line-height: 1.5rem;
+letter-spacing: 0px;
+
+}
+.footer-links{
+    margin-top: 17px;
+    height: 32px;
+    width: 176px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+.footer-link-img{
+    /* Social Icons / White / Instagram */
+    width: 32px;
+    height: 32px;
+}
+/***** End Section footer *****/
+
 
